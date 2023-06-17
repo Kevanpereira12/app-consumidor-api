@@ -17,11 +17,86 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: hsl(61, 56%, 65%);
+}
+header {
+  background-color: #f2f2f2;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.app-info {
+  text-align: right;
+}
+
+.app-info h2 {
+  font-size: 18px;
+}
+
+.app-info p {
+  font-size: 14px;
+  color: #000000;
+}
+.footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 60px;
+}
+
+.social-links {
+  margin-bottom: 100px;
+}
+
+.social-links a {
+  margin-right: 100px;
+}
+
+p {
+  color: #666;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+
+.navbar-brand img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.navbar-brand h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.navbar-buttons button {
+  margin-left: 10px;
 }

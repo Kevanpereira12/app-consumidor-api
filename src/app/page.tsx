@@ -1,7 +1,20 @@
 import Image from 'next/image'
+import './globals.css'
+import Footer from './Footer'
+import Navbar from './Navbar'
+
 
 export default function Home() {
   return (
-    <h1>Esta vez no</h1>
+  
+    <div className="container"> {}
+      <Navbar/>
+      
+      <Footer/>
+      
+      
+  
+  </div>
+
   )
 }
